@@ -81,12 +81,26 @@ Este es un proyecto web completo para gestionar tareas, creado con PHP, MySQL y 
 ## 👾 Cómo usar
 * Ingresa al sistema desde https://gestor-tareas-wilson.42web.io
 *  Resuelve el Captcha, el Login con las credenciales, y el metodo de 2FA
+##  Captcha
+  ![image](https://github.com/user-attachments/assets/327d8a94-dc90-4597-b94c-86b8e168acad)
+## Login
+ ![image](https://github.com/user-attachments/assets/2d0b4842-63b0-479a-9a46-e546270f04dd)
+## 2FA
+ ![image](https://github.com/user-attachments/assets/c6c3e64f-bdc6-4e91-8b9c-973e6cef800d)
+
+## Interfaz Sistema
+  ![image](https://github.com/user-attachments/assets/561745e4-827e-47b9-8670-1b2a38530966)
+
+
+
 *  Agrega nuevas tareas desde el formulario principal.
 *  Puedes editar o eliminar usando los botones junto a cada tarea.
 * El botón de cerrar sesión (logout.php) te devuelve a la página de inicio segura.
 
 ## 🔐 Seguridad
 Se utiliza session_start() y session_destroy() para manejo de usuarios.
+
+
 
 
 <div align="center">
