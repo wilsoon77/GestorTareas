@@ -1,0 +1,76 @@
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.form-text {
+    color: #6c757d !important;
+}
+
+/* Estilos para inputs en modo oscuro */
+.bg-dark::placeholder {
+    color: #6c757d;
+}
+
+.bg-dark::-webkit-input-placeholder {
+    color: #6c757d;
+}
+
+.bg-dark::-moz-placeholder {
+    color: #6c757d;
+}
+
+.bg-dark:-ms-input-placeholder {
+    color: #6c757d;
+}
+
+.bg-dark:-moz-placeholder {
+    color: #6c757d;
+}
+
+/* Estilos para el canvas del CAPTCHA */
+#captchaCanvas {
+    background-color: #2c3e50;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    background-color: #2c3e50;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #34495e;
+}
+
+
+/* Estilos para Index */

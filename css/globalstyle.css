@@ -1,0 +1,130 @@
+/* ==================== Global Styles ==================== */
+body, .dark-theme {
+    background-color: #121212;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* ==================== Tarjetas ==================== */
+.card {
+    border: none;
+}
+.card-title {
+    color: #fff;
+}
+.card-text {
+    color: #ccc;
+}
+.card {
+    /* Estilos de style.css */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ==================== Formularios ==================== */
+.form-control {
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+}
+.form-select {
+    background-color: #2a2a2a;
+    border: none;
+    color: #fff;
+}
+.form-control::placeholder, .bg-dark::placeholder {
+    color: #6c757d;
+}
+
+/* Estilo oscuro para dropdown de filtros */
+.dropdown-menu {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* ==================== Botones ==================== */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+.btn-outline-light:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+/* ==================== Modal y otros ==================== */
+.btn-close-white {
+    filter: invert(1);
+}
+.modal-content {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+
+
+/* ==================== Estilos personalizados para el Gestor de Tareas ==================== */
+/* Tarjetas personalizadas para el gestor */
+.card-custom {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+    margin-bottom: 1rem;
+}
+.card-custom:hover {
+    transform: scale(1.02);
+}
+
+/* Bordes según la prioridad */
+.priority-high {
+    border-left: 5px solid #dc3545;
+}
+.priority-medium {
+    border-left: 5px solid #ffc107;
+}
+.priority-low {
+    border-left: 5px solid #28a745;
+}
+
+/* Animación de entrada */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Strikethrough para tareas completadas */
+.strikethrough {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
