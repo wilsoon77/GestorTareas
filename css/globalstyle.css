@@ -7,6 +7,9 @@ body, .dark-theme {
 
 .container {
     max-width: 900px;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
 /* ==================== Tarjetas ==================== */
